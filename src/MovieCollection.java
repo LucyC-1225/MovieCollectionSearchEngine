@@ -203,6 +203,7 @@ public class MovieCollection
                 result.add(allCastMembers.get(i));
             }
         }
+        sortResults2(result);
         for (int i = 0; i < result.size(); i++)
         {
             int choiceNum = i + 1;
